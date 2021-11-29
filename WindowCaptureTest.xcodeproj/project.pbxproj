@@ -3,33 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C37FF8C42752197F007FA619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C37FF8C32752197F007FA619 /* AppDelegate.m */; };
-		C37FF8C627521981007FA619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37FF8C527521981007FA619 /* Assets.xcassets */; };
-		C37FF8C927521981007FA619 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37FF8C727521981007FA619 /* MainMenu.xib */; };
-		C37FF8CB27521981007FA619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C37FF8CA27521981007FA619 /* main.m */; };
-		C37FF8D5275219F0007FA619 /* ZoomingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C37FF8D3275219F0007FA619 /* ZoomingWindow.m */; };
-		C37FF8D6275219F0007FA619 /* ZoomingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37FF8D4275219F0007FA619 /* ZoomingWindow.xib */; };
+		C356EF832754A987003B969D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C356EF822754A987003B969D /* AppDelegate.m */; };
+		C356EF852754A988003B969D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C356EF842754A988003B969D /* Assets.xcassets */; };
+		C356EF882754A988003B969D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C356EF862754A988003B969D /* MainMenu.xib */; };
+		C356EF8B2754A988003B969D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C356EF8A2754A988003B969D /* main.m */; };
+		C356EF952754AA7C003B969D /* ZoomingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C356EF922754AA7C003B969D /* ZoomingWindow.xib */; };
+		C356EF962754AA7C003B969D /* ZoomingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C356EF932754AA7C003B969D /* ZoomingWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C37FF8BF2752197F007FA619 /* WindowCaptureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowCaptureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C37FF8C22752197F007FA619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C37FF8C32752197F007FA619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C37FF8C527521981007FA619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C37FF8C827521981007FA619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		C37FF8CA27521981007FA619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C37FF8CC27521981007FA619 /* WindowCaptureTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WindowCaptureTest.entitlements; sourceTree = "<group>"; };
-		C37FF8D2275219F0007FA619 /* ZoomingWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomingWindow.h; sourceTree = "<group>"; };
-		C37FF8D3275219F0007FA619 /* ZoomingWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomingWindow.m; sourceTree = "<group>"; };
-		C37FF8D4275219F0007FA619 /* ZoomingWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZoomingWindow.xib; sourceTree = "<group>"; };
+		C356EF7E2754A987003B969D /* WindowCaptureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowCaptureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C356EF812754A987003B969D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C356EF822754A987003B969D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C356EF842754A988003B969D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C356EF872754A988003B969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C356EF892754A988003B969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C356EF8A2754A988003B969D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C356EF922754AA7C003B969D /* ZoomingWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZoomingWindow.xib; path = WindowCaptureTest/ZoomingWindow.xib; sourceTree = SOURCE_ROOT; };
+		C356EF932754AA7C003B969D /* ZoomingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoomingWindow.m; path = WindowCaptureTest/ZoomingWindow.m; sourceTree = SOURCE_ROOT; };
+		C356EF942754AA7C003B969D /* ZoomingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoomingWindow.h; path = WindowCaptureTest/ZoomingWindow.h; sourceTree = SOURCE_ROOT; };
+		C356EF972754ABB9003B969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Base; path = Base.lproj/WindowCaptureTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C37FF8BC2752197F007FA619 /* Frameworks */ = {
+		C356EF7B2754A987003B969D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,34 +40,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C37FF8B62752197F007FA619 = {
+		C356EF752754A987003B969D = {
 			isa = PBXGroup;
 			children = (
-				C37FF8C12752197F007FA619 /* WindowCaptureTest */,
-				C37FF8C02752197F007FA619 /* Products */,
+				C356EF802754A987003B969D /* WindowCaptureTest */,
+				C356EF7F2754A987003B969D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C37FF8C02752197F007FA619 /* Products */ = {
+		C356EF7F2754A987003B969D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C37FF8BF2752197F007FA619 /* WindowCaptureTest.app */,
+				C356EF7E2754A987003B969D /* WindowCaptureTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C37FF8C12752197F007FA619 /* WindowCaptureTest */ = {
+		C356EF802754A987003B969D /* WindowCaptureTest */ = {
 			isa = PBXGroup;
 			children = (
-				C37FF8C22752197F007FA619 /* AppDelegate.h */,
-				C37FF8C32752197F007FA619 /* AppDelegate.m */,
-				C37FF8C527521981007FA619 /* Assets.xcassets */,
-				C37FF8C727521981007FA619 /* MainMenu.xib */,
-				C37FF8D2275219F0007FA619 /* ZoomingWindow.h */,
-				C37FF8D3275219F0007FA619 /* ZoomingWindow.m */,
-				C37FF8D4275219F0007FA619 /* ZoomingWindow.xib */,
-				C37FF8CA27521981007FA619 /* main.m */,
-				C37FF8CC27521981007FA619 /* WindowCaptureTest.entitlements */,
+				C356EF812754A987003B969D /* AppDelegate.h */,
+				C356EF822754A987003B969D /* AppDelegate.m */,
+				C356EF842754A988003B969D /* Assets.xcassets */,
+				C356EF862754A988003B969D /* MainMenu.xib */,
+				C356EF942754AA7C003B969D /* ZoomingWindow.h */,
+				C356EF932754AA7C003B969D /* ZoomingWindow.m */,
+				C356EF922754AA7C003B969D /* ZoomingWindow.xib */,
+				C356EF892754A988003B969D /* Info.plist */,
+				C356EF8A2754A988003B969D /* main.m */,
+				C356EF982754ABB9003B969D /* WindowCaptureTest.entitlements */,
 			);
 			path = WindowCaptureTest;
 			sourceTree = "<group>";
@@ -74,38 +76,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C37FF8BE2752197F007FA619 /* WindowCaptureTest */ = {
+		C356EF7D2754A987003B969D /* WindowCaptureTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C37FF8CF27521981007FA619 /* Build configuration list for PBXNativeTarget "WindowCaptureTest" */;
+			buildConfigurationList = C356EF8F2754A988003B969D /* Build configuration list for PBXNativeTarget "WindowCaptureTest" */;
 			buildPhases = (
-				C37FF8BB2752197F007FA619 /* Sources */,
-				C37FF8BC2752197F007FA619 /* Frameworks */,
-				C37FF8BD2752197F007FA619 /* Resources */,
+				C356EF7A2754A987003B969D /* Sources */,
+				C356EF7B2754A987003B969D /* Frameworks */,
+				C356EF7C2754A987003B969D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WindowCaptureTest;
-			productName = WindowCaptureText;
-			productReference = C37FF8BF2752197F007FA619 /* WindowCaptureTest.app */;
+			productName = WindowCaptureTest;
+			productReference = C356EF7E2754A987003B969D /* WindowCaptureTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C37FF8B72752197F007FA619 /* Project object */ = {
+		C356EF762754A987003B969D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					C37FF8BE2752197F007FA619 = {
-						CreatedOnToolsVersion = 13.1;
+					C356EF7D2754A987003B969D = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = C37FF8BA2752197F007FA619 /* Build configuration list for PBXProject "WindowCaptureTest" */;
+			buildConfigurationList = C356EF792754A987003B969D /* Build configuration list for PBXProject "WindowCaptureTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,61 +114,69 @@
 				en,
 				Base,
 			);
-			mainGroup = C37FF8B62752197F007FA619;
-			productRefGroup = C37FF8C02752197F007FA619 /* Products */;
+			mainGroup = C356EF752754A987003B969D;
+			productRefGroup = C356EF7F2754A987003B969D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C37FF8BE2752197F007FA619 /* WindowCaptureTest */,
+				C356EF7D2754A987003B969D /* WindowCaptureTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C37FF8BD2752197F007FA619 /* Resources */ = {
+		C356EF7C2754A987003B969D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37FF8C627521981007FA619 /* Assets.xcassets in Resources */,
-				C37FF8C927521981007FA619 /* MainMenu.xib in Resources */,
-				C37FF8D6275219F0007FA619 /* ZoomingWindow.xib in Resources */,
+				C356EF852754A988003B969D /* Assets.xcassets in Resources */,
+				C356EF882754A988003B969D /* MainMenu.xib in Resources */,
+				C356EF952754AA7C003B969D /* ZoomingWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C37FF8BB2752197F007FA619 /* Sources */ = {
+		C356EF7A2754A987003B969D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37FF8CB27521981007FA619 /* main.m in Sources */,
-				C37FF8C42752197F007FA619 /* AppDelegate.m in Sources */,
-				C37FF8D5275219F0007FA619 /* ZoomingWindow.m in Sources */,
+				C356EF8B2754A988003B969D /* main.m in Sources */,
+				C356EF832754A987003B969D /* AppDelegate.m in Sources */,
+				C356EF962754AA7C003B969D /* ZoomingWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C37FF8C727521981007FA619 /* MainMenu.xib */ = {
+		C356EF862754A988003B969D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C37FF8C827521981007FA619 /* Base */,
+				C356EF872754A988003B969D /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C356EF982754ABB9003B969D /* WindowCaptureTest.entitlements */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C356EF972754ABB9003B969D /* Base */,
+			);
+			name = WindowCaptureTest.entitlements;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C37FF8CD27521981007FA619 /* Debug */ = {
+		C356EF8D2754A988003B969D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -212,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -220,13 +229,13 @@
 			};
 			name = Debug;
 		};
-		C37FF8CE27521981007FA619 /* Release */ = {
+		C356EF8E2754A988003B969D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -265,91 +274,75 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		C37FF8D027521981007FA619 /* Debug */ = {
+		C356EF902754A988003B969D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WindowCaptureTest/WindowCaptureTest.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6U7YY3724Y;
 				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = WindowCaptureTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.ccxvii.spatterlight.WindowCaptureText;
+				PRODUCT_BUNDLE_IDENTIFIER = org.petter.WindowCaptureTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Debug;
 		};
-		C37FF8D127521981007FA619 /* Release */ = {
+		C356EF912754A988003B969D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WindowCaptureTest/WindowCaptureTest.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6U7YY3724Y;
 				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = WindowCaptureTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.ccxvii.spatterlight.WindowCaptureText;
+				PRODUCT_BUNDLE_IDENTIFIER = org.petter.WindowCaptureTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C37FF8BA2752197F007FA619 /* Build configuration list for PBXProject "WindowCaptureTest" */ = {
+		C356EF792754A987003B969D /* Build configuration list for PBXProject "WindowCaptureTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C37FF8CD27521981007FA619 /* Debug */,
-				C37FF8CE27521981007FA619 /* Release */,
+				C356EF8D2754A988003B969D /* Debug */,
+				C356EF8E2754A988003B969D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C37FF8CF27521981007FA619 /* Build configuration list for PBXNativeTarget "WindowCaptureTest" */ = {
+		C356EF8F2754A988003B969D /* Build configuration list for PBXNativeTarget "WindowCaptureTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C37FF8D027521981007FA619 /* Debug */,
-				C37FF8D127521981007FA619 /* Release */,
+				C356EF902754A988003B969D /* Debug */,
+				C356EF912754A988003B969D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C37FF8B72752197F007FA619 /* Project object */;
+	rootObject = C356EF762754A987003B969D /* Project object */;
 }

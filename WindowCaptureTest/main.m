@@ -2,7 +2,7 @@
 //  main.m
 //  WindowCaptureTest
 //
-//  Created by Administrator on 2021-11-27.
+//  Created by Administrator on 2021-11-29.
 //
 
 #import <Cocoa/Cocoa.h>

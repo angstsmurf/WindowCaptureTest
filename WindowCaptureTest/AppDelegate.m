@@ -22,6 +22,7 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    [_window makeKeyAndOrderFront:nil];
     // Insert code here to initialize your application
 }
 

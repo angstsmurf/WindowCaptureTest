@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -683,41 +683,41 @@
         <window title="WindowCaptureTest" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="400" height="209"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+            <rect key="contentRect" x="335" y="390" width="480" height="193"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="400" height="209"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="193"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X53-El-rYE">
-                        <rect key="frame" x="134" y="126" width="132" height="32"/>
-                        <buttonCell key="cell" type="push" title="Zoom animation" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UDe-V6-vis">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Zr-Y3-ihD">
+                        <rect key="frame" x="174" y="110" width="132" height="32"/>
+                        <buttonCell key="cell" type="push" title="Zoom animation" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UiL-hz-9iU">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="zoomWindow:" target="Voe-Tx-rLC" id="3Xf-Tp-BDN"/>
+                            <action selector="zoomWindow:" target="Voe-Tx-rLC" id="8Uf-mY-sGI"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HBg-Rf-If8">
-                        <rect key="frame" x="134" y="75" width="132" height="32"/>
-                        <buttonCell key="cell" type="push" title="Compare Colors" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TAM-lA-BOL">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vZD-qD-oAt">
+                        <rect key="frame" x="174" y="59" width="132" height="32"/>
+                        <buttonCell key="cell" type="push" title="Compare Colors" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TKh-vE-lVh">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="compareColors:" target="Voe-Tx-rLC" id="1OU-EF-nCQ"/>
+                            <action selector="compareColors:" target="Voe-Tx-rLC" id="3DF-iM-zFT"/>
                         </connections>
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="X53-El-rYE" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="56" id="2iw-m6-Esc"/>
-                    <constraint firstItem="HBg-Rf-If8" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="BLd-J4-Ggw"/>
-                    <constraint firstItem="HBg-Rf-If8" firstAttribute="top" secondItem="X53-El-rYE" secondAttribute="bottom" constant="31" id="tB4-y7-YjU"/>
-                    <constraint firstItem="X53-El-rYE" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="wOw-Io-sdZ"/>
+                    <constraint firstItem="vZD-qD-oAt" firstAttribute="top" secondItem="7Zr-Y3-ihD" secondAttribute="bottom" constant="31" id="4Uf-sZ-HTr"/>
+                    <constraint firstItem="vZD-qD-oAt" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="ZDV-rZ-fvB"/>
+                    <constraint firstItem="7Zr-Y3-ihD" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="56" id="vFS-FM-zW6"/>
+                    <constraint firstItem="7Zr-Y3-ihD" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="ywo-0g-aKJ"/>
                 </constraints>
             </view>
-            <point key="canvasLocation" x="117" y="408.5"/>
+            <point key="canvasLocation" x="200" y="316.5"/>
         </window>
     </objects>
 </document>
